@@ -1,0 +1,35 @@
+header{ 
+
+ background: url("../img/fundo-banner.jpg") no-repeat center center;
+ background-size: cover;
+ height: 85%;
+ width: 100%;
+ padding-top: 5rem;
+ padding-bottom: 2rem;
+
+}
+
+.form-home{ 
+      background: #ffffffa8;
+	}
+
+.bg-black{
+
+    background-color: #000000;
+}
+
+ul li a,ul li a:hover {
+     color: #fff;
+	}
+.form-control:focus {
+	    box-shadow: 0 0 0 0.2rem #1d212430;
+}	
+
+   
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   #senha-login {
+	        padding-top:10px;
+	}
+
+ }
