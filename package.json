@@ -1,9 +1,7 @@
 {
-  "engines": {
-    "node": "9.8.0"
-  },
+ 
    "scripts": {
-    "start": "node src/index.js"
+    "start": "node app.js"
   },	
   "name": "curso-edu",
   "version": "1.0.0",
@@ -22,6 +20,6 @@
     "express-session": "^1.14.1",
     "express-validator": "^2.20.8",
     "mongodb": "^2.2.10"
-  },
+  }
  
 }
