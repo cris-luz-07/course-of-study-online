@@ -2,7 +2,7 @@
 let app = require('./config/server');
 
 app.get('/', function(req, res) {
-    res.send('index');
+    res.render('index', {validacao: {}});
 });
 
 /* parametrizar a porta de escuta */
