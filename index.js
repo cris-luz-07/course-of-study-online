@@ -20,6 +20,10 @@ let app = express();
 app.set('view engine', 'ejs');
 app.set('views', './app/views');
 
+app.get('/', function(req, res) {
+    res.send(index.js);
+});
+
 /* configurar o middleware express.static */
 app.use(express.static('./app/public'));
 
@@ -44,5 +48,7 @@ consign()
 	.then('app/controllers')
 	.into(app);
 
-/* exportar o objeto app */
-module.exports = app;
+/* parametrizar a porta de escuta */
+app.listen(process.env.PORT || 4000, function(){
+    console.log('Your node js server is running');
+});
