@@ -21,8 +21,5 @@
     "express-session": "^1.14.1",
     "express-validator": "^2.20.8",
     "mongodb": "^2.2.10"
-  },
- "engines": {
-    "node": "9.8.0"
   }
  }
