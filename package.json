@@ -3,7 +3,7 @@
     "node": "9.8.0"
   },
    "scripts": {
-    "start": "node server.js"
+    "start": "node src/index.js"
   },	
   "name": "curso-edu",
   "version": "1.0.0",
