@@ -1,4 +1,10 @@
 {
+  "engines": {
+    "node": "9.8.0"
+  },
+   "scripts": {
+    "start": "node server.js"
+  },	
   "name": "curso-edu",
   "version": "1.0.0",
   "description": "",
@@ -17,7 +23,5 @@
     "express-validator": "^2.20.8",
     "mongodb": "^2.2.10"
   },
-  "scripts": {
-    "start": "node server.js"
-  }
+ 
 }
