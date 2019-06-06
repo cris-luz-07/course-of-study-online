@@ -1,7 +1,7 @@
 {
  
    "scripts": {
-    "start": "node app.js"
+    "start": "node src/app.js"
   },	
   "name": "curso-edu",
   "version": "1.0.0",
